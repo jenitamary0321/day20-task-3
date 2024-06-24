@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+#bearImage {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#changeBearButton {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#changeBearButton:hover {
+  background-color: #ff6347;
+}
